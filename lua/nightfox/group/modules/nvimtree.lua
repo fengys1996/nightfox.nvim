@@ -8,7 +8,7 @@ function M.get(spec, config, opts)
 
   -- stylua: ignore
   return {
-    NvimTreeNormal           = { fg = spec.fg1, bg = config.transparent and "NONE" or spec.bg0 },
+    NvimTreeNormal           = { fg = spec.fg1, bg = config.transparent and "NONE" or spec.bg1 },
     NvimTreeVertSplit        = { link = "VertSplit" },
     NvimTreeIndentMarker     = { fg = spec.bg4 },
 
