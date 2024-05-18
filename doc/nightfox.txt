@@ -266,6 +266,7 @@ options.styles {table}                 `styles` is a table that contains a list
 - keywords
 - numbers
 - operators
+- preprocs
 - strings
 - types
 - variables
@@ -746,7 +747,7 @@ this option `colorblind.enable`.
 
 There are three types of `color vision deficiency` (cvd)
 
-│  Cone   │ Type │Week (trichromacy)│Missing (Dichromacy)│
+│  Cone   │ Type │Weak (trichromacy)│Missing (Dichromacy)│
 │L / Red  │Protan│Protanomaly       │Protanopia          │
 │M / Green│Deutan│Deuteranomaly     │Deuteranopia        │
 │S / Blue │Tritan│Tritanomaly       │Tritanopia          │

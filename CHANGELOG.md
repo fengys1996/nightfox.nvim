@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.9.3](https://github.com/EdenEast/nightfox.nvim/compare/v3.9.2...v3.9.3) (2024-01-26)
+
+
+### Bug Fixes
+
+* **treesitter:** missing [@variable](https://github.com/variable) fg key ([#415](https://github.com/EdenEast/nightfox.nvim/issues/415)) ([9aef9ff](https://github.com/EdenEast/nightfox.nvim/commit/9aef9ff0e41c43fe9d9dbb3cd5f1ce20e0d18cfa))
+
+## [3.9.2](https://github.com/EdenEast/nightfox.nvim/compare/v3.9.1...v3.9.2) (2024-01-26)
+
+
+### Bug Fixes
+
+* add missing treesitter capture groups ([d4339e5](https://github.com/EdenEast/nightfox.nvim/commit/d4339e5b30a17b7130bbbc5de3bb6407239c9f9f)), closes [#412](https://github.com/EdenEast/nightfox.nvim/issues/412)
+* link to correct Function highlight group ([#413](https://github.com/EdenEast/nightfox.nvim/issues/413)) ([20d2eb4](https://github.com/EdenEast/nightfox.nvim/commit/20d2eb42a22a87fdf4e859af1b0262d4f3b3602b))
+
+## [3.9.1](https://github.com/EdenEast/nightfox.nvim/compare/v3.9.0...v3.9.1) (2024-01-24)
+
+
+### Bug Fixes
+
+* **treesitter:** '[@comment](https://github.com/comment).note' correctly set ([#408](https://github.com/EdenEast/nightfox.nvim/issues/408)) ([ec59253](https://github.com/EdenEast/nightfox.nvim/commit/ec59253e835ecce2a393dfeafeb1fa2b25d92312))
+
+## [3.9.0](https://github.com/EdenEast/nightfox.nvim/compare/v3.8.0...v3.9.0) (2024-01-24)
+
+
+### Features
+
+* **semanic_tokens:** add missing semanic tokens ([#406](https://github.com/EdenEast/nightfox.nvim/issues/406)) ([378ed7e](https://github.com/EdenEast/nightfox.nvim/commit/378ed7e671256f558d7364a5e5e986f45d9f330a))
+* **treesitter:** follow upstream highlight groups ([#404](https://github.com/EdenEast/nightfox.nvim/issues/404)) ([1e0dbb4](https://github.com/EdenEast/nightfox.nvim/commit/1e0dbb4abf1bbb57a3a03f83e5b8b6515ea1507e))
+
+
+### Bug Fixes
+
+* **treesitter:** link [@operator](https://github.com/operator) to operator ([ae41992](https://github.com/EdenEast/nightfox.nvim/commit/ae41992917d989177aff351bd6e66929de386f35))
+
+## [3.8.0](https://github.com/EdenEast/nightfox.nvim/compare/v3.7.1...v3.8.0) (2024-01-11)
+
+
+### Features
+
+* **extra:** add ghostty support ([#398](https://github.com/EdenEast/nightfox.nvim/issues/398)) ([34542a4](https://github.com/EdenEast/nightfox.nvim/commit/34542a433e5bd03c27b6cd4570849d9cde59acf7))
+* **extras:** add base16 scheme template generated base16 schemes. ([#354](https://github.com/EdenEast/nightfox.nvim/issues/354)) ([ca21c15](https://github.com/EdenEast/nightfox.nvim/commit/ca21c15589d9b71c7e1ad130273ad7819c6636d3))
+
+
+### Bug Fixes
+
+* **extra:** alacritty config from yml to toml ([#400](https://github.com/EdenEast/nightfox.nvim/issues/400)) ([83bad15](https://github.com/EdenEast/nightfox.nvim/commit/83bad1576d94251d460b2cc5635a15dd73cf6f65))
+* **extra:** fix typo from forground to foreground ([#401](https://github.com/EdenEast/nightfox.nvim/issues/401)) ([1e65031](https://github.com/EdenEast/nightfox.nvim/commit/1e650316680a777fb50e4ab35d82ecf32da485b8))
+* **whichkey:** link WhichKeyFloat to NormalFloat([#391](https://github.com/EdenEast/nightfox.nvim/issues/391)) ([281f307](https://github.com/EdenEast/nightfox.nvim/commit/281f30716cbbf57a8ef5aef0f381b1532f25cfac))
+
 ## [3.7.1](https://github.com/EdenEast/nightfox.nvim/compare/v3.7.0...v3.7.1) (2023-12-21)
 
 

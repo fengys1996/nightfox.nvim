@@ -208,6 +208,7 @@ combination of |highlight-args|. The list of syntax components are:
 - keywords
 - numbers
 - operators
+- preprocs
 - strings
 - types
 - variables
@@ -567,7 +568,7 @@ contrast. This can be enabled with this option `colorblind.enable`.
 
 There are three types of `color vision deficiency` (cvd)
 
-| Cone      | Type   | Week (trichromacy) | Missing (Dichromacy) |
+| Cone      | Type   | Weak (trichromacy) | Missing (Dichromacy) |
 | --------- | ------ | ------------------ | -------------------- |
 | L / Red   | Protan | Protanomaly        | Protanopia           |
 | M / Green | Deutan | Deuteranomaly      | Deuteranopia         |

@@ -12,7 +12,7 @@ local function conv(color)
   }
 end
 
-function M.generate(spec)
+function M.generate(spec, _)
   local colors = {
     meta = spec.palette.meta,
 
