@@ -24,7 +24,7 @@ function M.get(spec, config)
     -- TermCursor      = {}, -- cursor in a focused terminal
     -- TermCursorNC    = {}, -- cursor in an unfocused terminal
     ErrorMsg        = { fg = spec.diag.error }, -- error messages on the command line
-    WinSeparator    = { fg = black }, -- the column separating vertically split windows
+    WinSeparator    = { fg = grey }, -- the column separating vertically split windows
     VertSplit       = { link = "WinSeparator" }, -- the column separating vertically split windows
     Folded          = { fg = spec.fg3, bg = spec.bg2 }, -- line used for closed folds
     FoldColumn      = { fg = spec.fg3 }, -- 'foldcolumn'
