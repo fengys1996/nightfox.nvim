@@ -58,6 +58,8 @@ function M.get(spec, config)
     qfLineNr       = { link = "lineNr" },
     qfFileName     = { link = "Directory" },
 
+    qfText         = { link = "lineNr" },
+
     -- htmlH1       = {},
     -- htmlH2       = {},
 

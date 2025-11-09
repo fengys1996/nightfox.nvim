@@ -32,11 +32,12 @@ function M.get(spec, config)
     SignColumnSB    = { link = "SignColumn" }, -- column where |signs| are displayed
     Substitute      = { fg = spec.bg1, bg = spec.diag.error }, -- |:substitute| replacement text highlighting
     LineNr          = { fg = spec.fg3 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
+    QfText          = { link = "LineNr" },
     CursorLineNr    = { fg = spec.diag.warn, style = "bold" }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     MatchParen      = { fg = spec.diag.warn, style = inv.match_paren and "reverse,bold" or "bold" }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
     ModeMsg         = { fg = spec.diag.warn, style = "bold" }, -- 'showmode' message (e.g., "-- INSERT -- ")
     -- NOTE: This was commented out as there is an issue with seting this highlight group see issue #98
-    -- MsgArea         = { fg = spec.fg2 }, -- Area for messages and cmdline
+    MsgArea         = { fg = spec.fg2, bg = spec.bg0 }, -- Area for messages and cmdline
     -- MsgSeparator    = {}, -- Separator for scrolled messages, `msgsep` flag of 'display'
     MoreMsg         = { fg = spec.diag.info, style = "bold" }, -- |more-prompt|
     NonText         = { fg = spec.bg4 }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
