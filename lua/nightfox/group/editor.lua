@@ -24,7 +24,7 @@ function M.get(spec, config)
     -- TermCursor      = {}, -- cursor in a focused terminal
     -- TermCursorNC    = {}, -- cursor in an unfocused terminal
     ErrorMsg        = { fg = spec.diag.error }, -- error messages on the command line
-    WinSeparator    = { fg = grey }, -- the column separating vertically split windows
+    WinSeparator    = { fg = "#D3D3D3" }, -- the column separating vertically split windows
     VertSplit       = { link = "WinSeparator" }, -- the column separating vertically split windows
     Folded          = { fg = spec.fg3, bg = spec.bg2 }, -- line used for closed folds
     FoldColumn      = { fg = spec.fg3 }, -- 'foldcolumn'
@@ -37,7 +37,8 @@ function M.get(spec, config)
     MatchParen      = { fg = spec.diag.warn, style = inv.match_paren and "reverse,bold" or "bold" }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
     ModeMsg         = { fg = spec.diag.warn, style = "bold" }, -- 'showmode' message (e.g., "-- INSERT -- ")
     -- NOTE: This was commented out as there is an issue with seting this highlight group see issue #98
-    MsgArea         = { fg = spec.fg2, bg = spec.bg0 }, -- Area for messages and cmdline
+    -- MsgArea         = { fg = spec.fg2, bg = spec.bg0 }, -- Area for messages and cmdline
+    -- MsgArea         = { fg = spec.fg2 }, -- Area for messages and cmdline
     -- MsgSeparator    = {}, -- Separator for scrolled messages, `msgsep` flag of 'display'
     MoreMsg         = { fg = spec.diag.info, style = "bold" }, -- |more-prompt|
     NonText         = { fg = spec.bg4 }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
