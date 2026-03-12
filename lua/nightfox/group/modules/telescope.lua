@@ -8,7 +8,7 @@ function M.get(spec, config, opts)
     TelescopeBorder         = { fg = spec.bg4 },
     TelescopeSelectionCaret = { fg = spec.diag.hint },
     TelescopeSelection      = { link = "CursorLine" },
-    TelescopeMatching       = { link = "Search" },
+    TelescopeMatching       = { fg = spec.palette.red.base },
   }
 end
 
